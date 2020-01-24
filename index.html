@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hand-Cricket</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Welcome to Hand-Cricket</h1>
+    </div>
+    <section>
+        <table id='t1'>
+            <tr>
+                <td>
+                    <table id='t2'>
+                        <tr>
+                            <td>
+                                <input type="button" class="button" value="1" onclick="runApp(1)">
+                            </td>
+                            <td>
+                                <input type="button" class="button" value="2" onclick="runApp(2)">
+                            </td>
+                            <td>
+                                <input type="button" class="button" value="3" onclick="runApp(3)">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" class="button" value="4" onclick="runApp(4)">
+                            </td>
+                            <td>
+                                <input type="button" class="button" value="5" onclick="runApp(5)">
+                            </td>
+                            <td>
+                                <input type="button" class="button" value="6" onclick="runApp(6)">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table id='t5'>
+                        <tr>
+                            <td style="padding-left: 20px; padding-bottom: 30px;"><input type="button" class="button" value=" User Score "></td>
+                        </tr>
+                        <tr>
+                            <td id='t7' style="color: white;padding-left: 50px;padding-bottom: 20px;"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table id='t8'>
+                        <tr>
+                            <td style="padding-left: 20px; padding-bottom: 30px;"><input type="button" class="button" value=" Computer Score" ></td>
+                        </tr>
+                        <tr>
+                            <td id='t10' style="color: white;padding-left: 50px;padding-bottom: 20px;" ></td>
+                        </tr>
+                    </table>
+                </td>
+                <br>
+                
+            </tr>
+        </table>
+        <p id='p1' style="color: white;padding-left: 200px;font-size: large;"></p>
+        <br><br>
+        <p style="color: white;padding-left: 200px;font-size: medium;">* User : </p>
+        <p id='p2' style="color: white;padding-left: 200px;font-size: medium;"></p>
+        <p style="color: white;padding-left: 200px;font-size: medium;">  Computer : </p>
+        <p id ='p3' style="color: white;padding-left: 200px;font-size: medium;"></p>
+    </section>
+</body>
+</html>
